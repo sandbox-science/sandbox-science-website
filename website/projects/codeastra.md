@@ -2,7 +2,7 @@
 title: CodeAstra
 ---
 <p align="center">
-  <img src="codeastra.png" alt="CodeAstra Logo" width="200">
+  <img src="../public/codeastra.png" alt="CodeAstra Logo" width="200">
 </p>
 
 <h1 align="center">CodeAstra ~ Modern Code Editor</h1>
