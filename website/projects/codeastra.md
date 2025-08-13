@@ -2,32 +2,8 @@
 title: CodeAstra
 ---
 <p align="center">
-  <img src="../public/codeastra.png" alt="CodeAstra Logo" width="200">
+  <img src="codeastra.png" alt="CodeAstra Logo" width="200">
 </p>
-
-<div>
-
-  <!-- C++ CI Badge -->
-  [![C++ CI](https://github.com/sandbox-science/CodeAstra/actions/workflows/cpp.yml/badge.svg)](https://github.com/sandbox-science/CodeAstra/actions/workflows/cpp.yml) 
-  [![Test CI](https://github.com/sandbox-science/CodeAstra/actions/workflows/test.yml/badge.svg)](https://github.com/sandbox-science/CodeAstra/actions/workflows/test.yml)
-
-  <!-- CodeAstra Latest Release Badge -->
-  <a href="https://github.com/sandbox-science/CodeAstra/releases">
-    <img src="https://img.shields.io/github/v/tag/sandbox-science/CodeAstra?label=CodeAstra&color=lightblue" alt="CodeAstra Latest Release">
-  </a>
-
-  <!-- C++ Version Badge (with official C++ blue color) -->
-  <a href="https://isocpp.org/">
-    <img src="https://img.shields.io/badge/C%2B%2B-v20%2B-%2300599C" alt="C++ Version 20+">
-  </a>
-
-  <!-- Qt Version Badge (with official Qt green color) -->
-  <a href="https://doc.qt.io/qt-6/gettingstarted.html">
-    <img src="https://img.shields.io/badge/Qt-6.8-%2343B02A" alt="Qt Version 6.8">
-  </a>
-
-</div>
-
 
 <h1 align="center">CodeAstra ~ Modern Code Editor</h1>
 
