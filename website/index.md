@@ -6,7 +6,7 @@ The mission is simple: **build real projects while learning real skills.**
 Whether you’re learning systems programming, exploring algorithms, or prototyping creative tools, this space is designed to encourage hands-on learning and community-driven development.
 
 <Badge type="tip" text="TIP" />
-Join the [Matrix Server](https://matrix.to/#/#sandboxscience:matrix.org) for general SandBox Science discussion as well as project-specific discussion.
+> Join the [Matrix Server](https://matrix.to/#/#sandboxscience:matrix.org) for general SandBox Science discussion as well as project-specific discussion.
 
 ## 🔬 What We Do
 
