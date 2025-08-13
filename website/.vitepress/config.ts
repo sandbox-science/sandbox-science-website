@@ -5,8 +5,6 @@ import p_sidebar from "../projects/sidebar"
 export default defineConfig({
     title: "Sandbox Science",
     description: "Open Source Community for developer that want to experiment with tools.",
-    outDir: "../dist",
-    srcDir: "../",
     themeConfig: {
         logo: "../public/sbs_logo.png",
         nav: [
