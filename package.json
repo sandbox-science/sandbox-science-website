@@ -1,0 +1,21 @@
+{
+  "name": "SandBox Science Website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev website",
+    "build": "vitepress build website",
+    "serve": "vitepress serve website"
+  },
+  "devDependencies": {
+    "vue": "3.2.44",
+    "vitepress": "1.0.0-alpha.28"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
