@@ -5,6 +5,7 @@ const sidebar = [
         items: [
             { text: "CodeAstra", link: "/projects/codeastra" },
             { text: "AstraKernel", link: "/projects/astrakernel" },
+            { text: "DevLog", link: "/projects/devlog" },
         ],
         collapsed: true,
     },
