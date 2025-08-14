@@ -50,7 +50,7 @@ export default defineConfig({
         ],
 
         footer: {
-            message: 'Released under the MIT License.',
+            message: 'Released under the GPL-3.0 License.',
             copyright: `Copyright © ${new Date().getFullYear()} Sandbox Science`
         },
 
