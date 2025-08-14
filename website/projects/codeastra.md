@@ -13,9 +13,6 @@ CodeAstra is a modern, extensible, and lightweight code editor built using moder
 
 > <Badge type="tip" text="Important" /> CodeAstra has been tested on macOS and Linux and works as expected on those platforms. The project has not been tested natively on Windows, but it works when using **WSL** (Windows Subsystem for Linux). Native Windows support is not guaranteed. 
 
-## How to install the project
-Please, check the [wiki](https://github.com/sandbox-science/CodeAstra/wiki) for recommended installation instructions.
-
 ## Required Tools
 - CMake
 - Make
