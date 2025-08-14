@@ -25,3 +25,5 @@ title: DevLog
 - 🎟️ Auto log timestamped git activity during a session
 - 📂 Export sessions as Markdown and HTML logs for friendly visual
 - 📁 Organized logs stored in `~/.devlog/sessions/`
+
+**Repository**: https://github.com/sandbox-science/devlog

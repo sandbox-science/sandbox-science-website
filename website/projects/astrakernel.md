@@ -34,3 +34,4 @@ For more details about this kernel, refer to the [AstraKernel Documentation](htt
 
 > <Badge type="info" text="Note" /> The manual is a work in progress and may not cover all features yet.
 
+**Repository**: https://github.com/sandbox-science/AstraKernel
