@@ -6,18 +6,22 @@ title: capski
   <img src="../public/capski.png" alt="Capski Logo">
 </p>
 
-# Capski CLI
-
-A fast, command-line Rust video subtitle pipeline that:
-
-- Extracts audio from a video using `ffmpeg`
-- Transcribes speech into text with precise timestamps using `whisper_rs`
-- Generates styled karaoke-style ASS subtitles (with word-level highlighting)
-- Burns subtitles into videos or overlays on new video, image, or solid color backgrounds with `ffmpeg`
+# Capski ~ Audio-to-Karaoke Video Tool
+Capski is a command-line tool written in **Rust** that transforms audio or video files into stylized **karaoke-style** videos with real-time subtitles. The tool supports transcription, translation, and subtitle rendering with custom styling, making it ideal for content creators and educators.
 
 ## Tech Stack
 - Rust
-- FFmpeg
+- whisper-rs
+- FFmpeg for video processing
+- Advanced SubStation Alpha (ASS) for subtitles
+
+## Key Features
+- Converts WAV/MP3/MP4 into karaoke-style videos
+- Whisper-based transcription with real-time timing
+- Optional English translation between multiple languages
+- Styled subtitles via JSON config
+- Burn subtitles directly into video using FFmpeg
+- Simple, ergonomic CLI with helpful flags
 
 ## Engineering Requirements Document
 The Engineering Requirements Document (**ERD**) is available here :
