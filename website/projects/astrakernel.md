@@ -22,6 +22,11 @@ Welcome to your own little Astra world!
 Type away, explore, have fun.
 ```
 
+## Tech Stack
+
+- C
+- ARM Assembly
+
 ## Features so far
 
 - Simple ARM assembly startup code
