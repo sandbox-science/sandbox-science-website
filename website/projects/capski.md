@@ -27,3 +27,5 @@ Capski is a command-line tool written in **Rust** that transforms audio or video
 The Engineering Requirements Document (**ERD**) is available here :
 
 -> [ERD on Google Docs](https://docs.google.com/document/d/1xfLcfE5BA1i_wjUSHHJYuA4zneVqrm4rEg2bf_YeltQ/edit?usp=sharing)
+
+**Repository**: https://github.com/sandbox-science/transcriber
