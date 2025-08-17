@@ -26,4 +26,7 @@ title: DevLog
 - 📂 Export sessions as Markdown and HTML logs for friendly visual
 - 📁 Organized logs stored in `~/.devlog/sessions/`
 
+## Tech Stack
+- Python3
+
 **Repository**: https://github.com/sandbox-science/devlog
