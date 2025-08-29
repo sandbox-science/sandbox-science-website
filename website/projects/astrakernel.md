@@ -37,14 +37,20 @@ AstraKernel >
 
 The development of **AstraKernel** is divided into multiple phases. The first foundational phase, **Phase A**, 
 which focused on bringing up the kernel, has been completed. The next step on the roadmap is **Phase B**, 
-which will focus on building the **Process and Memory Management** system.
+which will focus on building the **Process and Memory Management** system. Then, **Phase C** will focus 
+on building **Storage Foundations**. After that, **Phase D**, will focus on the first **File Operations**, 
+such as `touch`, `echo`, `cat`, etc commands. Then, finally the last phase will be **Phase E**, which will 
+bring up **Persistence** to support on-disk filesystems.
 
-Here is **Phase A**:
+Here is the completed **Phase A**:
 
 - [x] **Bootstrapping**: stack setup, BSS clearing, entry into the kernel main.
 - [x] **UART I/O**: putc/puts, getc/getline, basic shell loop.
 - [x] **Vector Table**: Define vector table for exceptions/interrupts.
 - [x] **Basic Timer Interrupt**: Configure one hardware timer, hook its interrupt to increment a "tick" counter.
+
+This project is a hands-on, low-level project perfect for anyone curious about operating systems, 
+ARM architecture, or/and kernel development. Whatever your background there’s room for contribution.
 
 ## Documentation
 
