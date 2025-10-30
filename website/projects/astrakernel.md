@@ -4,10 +4,14 @@ title: AstraKernel
 
 # AstraKernel ~ A minimal ARM kernel for QEMU
 
-AstraKernel is a minimal experimental kernel written in modern C and ARM assembly, designed to run on 
-**QEMU's VersatileAB (Cortex-A8)** platform. The purpose is educational, showing the fundamental 
-steps of bringing up a bare-metal system, from low-level bootstrapping to higher-level interactive features 
-to explore kernel development concepts.
+[![GitHub release (including pre-releases)](https://img.shields.io/github/v/release/sandbox-science/AstraKernel?include_prereleases)](https://github.com/sandbox-science/AstraKernel/releases)
+[![Doxygen Docs](https://github.com/sandbox-science/AstraKernel/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/sandbox-science/AstraKernel/actions/workflows/static.yml)
+
+AstraKernel is a minimal experimental kernel written in modern C and ARM assembly, designed to run on
+**QEMU’s Versatile AB/PB board with a Cortex‑A8 CPU override (-cpu cortex-a8)**. This setup keeps the
+simple Versatile peripheral map while enabling **ARMv7‑A** features for experimentation. 
+The purpose is educational, showing the fundamental steps of bringing up a bare-metal system, from 
+low-level bootstrapping to higher-level interactive features to explore kernel development concepts.
 
 ```bash
 ========================================
@@ -26,6 +30,19 @@ Press Ctrl-A and then X to exit QEMU.
 
 AstraKernel >
 ```
+
+## Target platform and configuration
+
+- Machine (board): `versatilepb` (or `versatileab`)
+- CPU model: `cortex-a8` (via `-cpu cortex-a8`)
+- Key peripherals (Versatile map):
+  - UART0 (PL011): 0x101F1000
+  - Timers (SP804): 0x101E2000
+  - Interrupt controller: VIC at 0x10140000
+  - SDRAM base: 0x00000000
+- Exception vectors: initially at 0x00000000 (32-byte aligned).
+  
+Later, the kernel may relocate vectors using VBAR once the MMU is enabled.
 
 ## Tech Stack
 
@@ -54,8 +71,8 @@ ARM architecture, or/and kernel development. Whatever your background there’s 
 
 ## Documentation
 
-For more details about this kernel, refer to the [AstraKernel Documentation](https://github.com/sandbox-science/AstraKernel/blob/main/doc/AstraKernelManual.pdf).
+For more details about this kernel, refer to the [AstraKernel Doxygen Documentation](https://sandbox-science.github.io/AstraKernel/).
 
-> <Badge type="info" text="Note" /> The manual is a work in progress and may not cover all features yet.
+> <Badge type="info" text="Note" /> You can also to refer to the manual (which is a work in progress and may not cover all features yet) at [AstraKernel Documentation](https://github.com/sandbox-science/AstraKernel/blob/main/doc/AstraKernelManual.pdf)..
 
 **Repository**: https://github.com/sandbox-science/AstraKernel
