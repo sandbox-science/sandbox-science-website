@@ -3,8 +3,9 @@ const sidebar = [
         text: "Projects",
         link: "/projects",
         items: [
-            { text: "CodeAstra", link: "/projects/codeastra" },
+            { text: "AstraPulse", link: "/projects/astrapulse" },
             { text: "AstraKernel", link: "/projects/astrakernel" },
+            { text: "CodeAstra", link: "/projects/codeastra" },
             { text: "DevLog", link: "/projects/devlog" },
             { text: "Capski", link: "/projects/capski" },
         ],
